@@ -904,11 +904,12 @@ body {
 
 .cert-card img {
   width: 100%;
-  height: 180px;
-  object-fit: cover;
-  background: rgba(255, 255, 255, 0.9);
+  height: 200px;
+  object-fit: contain;
+  background: #fff;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   transition: transform 0.4s ease;
+  padding: 10px;
 }
 
 .cert-card:hover img {
